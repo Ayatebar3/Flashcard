@@ -1,0 +1,38 @@
+
+@media only screen and (max-width: 480px) {
+	.left_div {
+		font-size: 5vw;
+		flex-basis:70%
+	}
+	
+	.right_div {
+		flex-basis: 30%;
+	}
+
+	.sign_in_div {
+		font-size: 4vw;
+	}
+
+	.google_icon_div {
+		width: 10vw;
+		height: 10vw;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+    
+    
+    .login_page_div {
+	flex-direction: column;
+    }
+
+    .left_div {
+	flex-basis: 60%;
+	align-items: center;
+    }
+
+    .right_div {
+	box-shadow: inset 1px 10px 8px grey;
+	flex-basis: 40%
+    }
+}
